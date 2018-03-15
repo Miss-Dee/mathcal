@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>MathCal</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="randScript.js"></script> 
+</head>
+
+    <body>
+        <h3>Level 1 <br /></h3>
+        <div id="level1">
+            <a href ="randGame2.html" >Home</a> 
+            <a href ="level2.html"  >Level 2</a>
+            <a href ="level3.html"  >Level 3</a>
+        </div>
+            <p id="problem">
+            <b>Problem:</b>
+            <span id="num1"></span>
+           <script>checkMath(); {
+            display.num1;
+        }</script>
+            <span id="opr"></span>
+            <span id="num2"></span>
+        </p>
+        <form method="post" onsubmit="checkMath(); return false;">
+            <input type="text" id="answer" placeholder="type answer"/>
+            <input type="submit" value="Check"/>
+        </form>
+    </body>
+</html>
